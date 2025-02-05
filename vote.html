@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote - Online Voting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Cast Your Vote</h2>
+        <p id="welcomeText"></p>
+        <div class="candidates">
+            <div class="candidate" onclick="castVote('BJP ')">
+                <img src="party1.png"height ="100px " width = " 100px" alt="Candidate A" >
+                <p>BJP</p>
+            </div>
+            <div class="candidate" onclick="castVote('Congress')">
+                <img src="party2.png" alt="Congress">
+                <p>Congress</p>
+            </div>
+            <div class="candidate" onclick="castVote('BSP')">
+                <img src="party3.png"height="100px" width="100px " alt="BSP">
+                <p>BSP</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
